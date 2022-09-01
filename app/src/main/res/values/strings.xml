@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NotificationChannels</string>
+    <string name="send_notification_text">Send notifications</string>
+    <string name="notification_title">Gooooooaaaaaaaal!!!!!!</string>
+    <string name="notification_text">Robert Lewandowski scores!!</string>
+</resources>
