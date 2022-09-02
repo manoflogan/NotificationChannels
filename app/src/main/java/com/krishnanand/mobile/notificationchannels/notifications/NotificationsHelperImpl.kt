@@ -50,7 +50,7 @@ class NotificationsHelperImpl @Inject constructor(
         val notificationBuilder = NotificationCompat.Builder(context, CASH_REGISTER_CHANNEL_ID).apply {
             setSmallIcon(R.drawable.ic_stat_sports_soccer)
             setOnlyAlertOnce(true)
-            contextResources.openRawResource(R.raw.robert_lewandowski)?.use {
+            contextResources.openRawResource(R.raw.robert_lewandowski).use {
                 val bitmap = BitmapFactory.decodeStream(it)
                 setStyle(NotificationCompat.BigPictureStyle().bigPicture(bitmap).bigLargeIcon(null))
                 setLargeIcon(bitmap)
