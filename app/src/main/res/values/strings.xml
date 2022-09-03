@@ -3,4 +3,12 @@
     <string name="send_notification_text">Send notifications</string>
     <string name="notification_title">Gooooooaaaaaaaal!!!!!!</string>
     <string name="notification_text">Robert Lewandowski scores!!</string>
+    <string name="notification_permission_dialog_title">Keep apprised of the latest updates to your sales.</string>
+    <string name="notification_permission_dialog_message">Enable push notifications now</string>
+    <string name="notification_permission_negative_maybe_later">Maybe later</string>
+    <string name="notification_permission_permission_maybe_later">We will try again</string>
+    <string name="notification_permission_permission_approval_access">You are now ready to receive push notifications</string>
+    <string name="notification_permission_permission_denied_access">Push notification permission has been denied</string>
+    <string name="notification_permission_permission_already_granted">You have enabled push notifications</string>
+    <string name="notification_permission_permission_not_granted">Push notifications not granted</string>
 </resources>

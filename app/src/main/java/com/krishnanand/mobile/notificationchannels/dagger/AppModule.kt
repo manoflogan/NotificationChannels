@@ -8,6 +8,7 @@ import com.krishnanand.mobile.notificationchannels.MainActivity
 import com.krishnanand.mobile.notificationchannels.notifications.NotificationSettingReceiver
 import com.krishnanand.mobile.notificationchannels.notifications.NotificationsHelper
 import com.krishnanand.mobile.notificationchannels.notifications.NotificationsHelperImpl
+import com.krishnanand.mobile.notificationchannels.notifications.PushNotificationPermissionRationaleDialogFragment
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -21,6 +22,9 @@ interface AppModule {
 
     @ContributesAndroidInjector
     fun contributeMainActivity(): MainActivity
+
+    @ContributesAndroidInjector
+    fun contributePushNotificationPermissionRationaleDialogFragment(): PushNotificationPermissionRationaleDialogFragment
 
     @Binds
     fun bindNotificationChannelCreator(instance: NotificationsHelperImpl): NotificationsHelper
